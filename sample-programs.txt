@@ -1,0 +1,79 @@
+Sample Programs and Output: 
+
+Program: 我星期三去图书馆做功课
+Output: I will go to the library to do homework on Wednesday.
+
+Program: 星期三十点我兄弟去宿舍看书
+Output: My brother will go to the dormitory to read a book on Wednesday at ten o'clock.
+
+Program: 十点我在家打球
+Output: I play ball at home at ten o'clock.
+
+Program: 今天十一点我在图书馆看书
+Output: I read a book at the library today at eleven o'clock.
+
+Program: 明天一点他们在宿舍听音乐
+Output: They listen to music at the dormitory tomorrow at one o'clock.
+
+Program: 星期天十点他在商店买东西
+Output: He buys things at the store on Sunday at ten o'clock.
+
+Program: 我们星期一在学校学习电脑课
+Output: We study computer science at school on Monday.
+
+Program: 你们星期二六点在商店买东西
+Output: You all buy things at the store on Tuesday at six o'clock.
+
+Program: 今天七点它们在宿舍打球
+Output: They play ball at the dormitory today at seven o'clock.
+
+Program: 明天三点她们在商店听音乐
+Output: They listen to music at the store tomorrow at three o'clock.
+
+Program: 今天她在家学习英文
+Output: She studies English at home today.
+
+Program: 星期四五点我的朋友去家做工作
+Output: My friend will go home to do work on Thursday at five o'clock.
+
+Program: 明天我爸爸去商店买东西
+Output: My dad will go to the store to buy things tomorrow.
+
+Program: 我姐妹星期一八点去宿舍看书
+Output: My sister will go to the dormitory to read a book on Monday at eight o'clock.
+
+Program: 你今天九点去学校打球
+Output: You will go to school to play ball today at nine o'clock.
+
+Program: 你们明天十二点去家学习电脑课
+Output: You all will go home to study computer science tomorrow at twelve o'clock.
+
+Program: 星期三一点我妈妈去图书馆看东西
+Output: My mom will go to the library to read things on Wednesday at one o'clock.
+
+Program: 我的朋友今天在家做功课
+Output: My friend will do homework at home today.
+
+Program: 我姐妹明天八点在家做工作
+Output: My sister will do work at home tomorrow at eight o'clock.
+
+Program: 我们今天八点在图书馆听中文
+Output: We listen to Chinese at the library today at eight o'clock.
+
+Program: 她们今天十二点在学校看英文
+Output: They read English at school today at twelve o'clock.
+
+Program: 我的朋友明天五点在商店做东西
+Output: My friend will do things at the store tomorrow at five o'clock.
+
+Program: 我明天六点在学校听东西
+Output: I listen to things at school tomorrow at six o'clock.
+
+Program: 我的朋友明天七点在学校买书
+Output: My friend buys a book at school tomorrow at seven o'clock.
+
+Program: 我们今天十一点在商店看音乐
+Output: We read music at the store today at eleven o'clock.
+
+Program: 我今天在家学习中文
+Output: I study Chinese at home today.
