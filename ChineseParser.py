@@ -106,9 +106,9 @@ parser = Lark(grammar, start="start")
 
 def translate(chinese_text):
     tree = parser.parse(chinese_text)
-    sentence = []
-    time_cache = []
-    sentence_type = ''
+    sentence = []                       # Holds final sentence components to be joined at the end
+    time_cache = []                     # Holds time components to be appended to the sentence at the end
+    sentence_type = ''                  # Distinguishes gosentence from simplesentence for grammar rules
     numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve']
     nonterminals = ['start','sentence','atplace', 'goplace', 'subjecttime', 'subject', 'time', 'verbphrase']
     
@@ -151,9 +151,8 @@ def translate(chinese_text):
             sentence.append('I')
         else:
             sentence.append(node.data)
-
     if sentence_type == 'simplesentence': 
-        if sentence[0] in ["my mom", "my dad", "my friend", "my sister", "my brother", "he", "she"]:
+        if sentence[0] in ["my mom", "my dad", "my friend", "my sister", "my brother", "he", "she"]: # These subjects require plural verbs
             if sentence[2] == 'buy':
                 sentence[2] = 'buys'
             elif sentence[2] == 'study':
@@ -163,18 +162,20 @@ def translate(chinese_text):
             elif sentence[2] == 'play':
                 sentence[2] = 'plays'
             elif sentence[2] == 'do':
-                sentence[2] = 'will do'            
-        sentence[1], sentence[2], sentence[3] = sentence[2], sentence[3], sentence[1]
+                sentence[2] = 'will do' # Will do or does both work, will do is typically more applicable for these sentences   
+            elif sentence[2] == 'read':
+                sentence[2] = 'reads'        
+        sentence[1], sentence[2], sentence[3] = sentence[2], sentence[3], sentence[1] # reorder place-verb-object to verb-object-place
     else:     
         pass
 
     sentence.extend(time_cache) 
 
-    to_capitalize = sentence[0]
-    to_capitalize = to_capitalize[0].upper() + to_capitalize[1:]
+    to_capitalize = sentence[0] 
+    to_capitalize = to_capitalize[0].upper() + to_capitalize[1:] # Capitalization via array/string manipulation
     sentence[0] = to_capitalize
 
-    return " ".join(sentence) + '.'
+    return " ".join(sentence) + '.' # Final sentance with punctuation 
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

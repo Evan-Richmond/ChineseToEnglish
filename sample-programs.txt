@@ -77,3 +77,24 @@ Output: We read music at the store today at eleven o'clock.
 
 Program: 我今天在家学习中文
 Output: I study Chinese at home today.
+
+Program: 我爸爸星期三十点在图书馆听音乐
+Output: My dad listens to music at the library on Wednesday at ten o'clock.
+
+Program: 我的朋友明天在家打球
+Output: My friend plays ball at home tomorrow.
+
+Program: 我爸爸今天在家做工作
+Output: My dad will do work at home today.
+
+Program: 我姐妹星期天二点在学校学习电脑课
+Output: My sister studies computer science at school on Sunday at two o'clock.
+
+Program: 我兄弟明天在学校听音乐
+Output: My brother listens to music at school tomorrow.
+
+Program: 他星期六在宿舍听东西
+Output: He listens to things at the dormitory on Saturday.
+
+Program: 她星期五五点在学校学习中文 
+Output: She studies Chinese at school on Friday at five o'clock.
